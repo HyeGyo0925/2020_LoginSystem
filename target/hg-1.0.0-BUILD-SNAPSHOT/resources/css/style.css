@@ -1,0 +1,29 @@
+@CHARSET "UTF-8";
+
+.form-login .form-control,
+.form-signup .form-control {
+	position: relative;
+	box-sizing: border-box;
+	height: auto;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.form-login .form-control-email,
+.form-signup .form-control-email {
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.form-signup .form-control-password,
+.form-signup .form-control-confirmPassword {
+	margin-bottom: -1px;
+	border-radius: 0;
+}
+
+.form-login .form-control-password,
+.form-signup .form-control-name {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
